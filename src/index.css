@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.navHover:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+
+}
+
+.linkColor {
+    background-color: rgba(156, 156, 156, 0.4);
+    border-radius: 2px;
+}
+
+.sbg {
+    background-color: rgba(64, 64, 64, 0.6);
+}
+
+
+
+.scrollnew::-webkit-scrollbar {
+    width: 0px;
+}
+
+.scrollnew::-webkit-scrollbar-thumb {
+    background: #58CBFE;
+    border-radius: 5px;
+}
+
+.scrollnew::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.bg_pop {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.hovermeta {
+    /* background-color: rgba(); */
+    outline: 1px solid rgba(0, 0, 0, 0.89);
+    transition: 0.5s;
+}
+
+.hovermeta:hover {
+    background-color: rgba(0, 0, 0, 0.56);
+    outline: 1px solid transparent;
+}
+
+.maindiv {
+    background-color: rgba(35, 35, 36, 1);
+}
+
+.scrollnew1::-webkit-scrollbar {
+    width: 5px; 
+}
+
+.scrollnew1::-webkit-scrollbar-thumb {
+    background: #58CBFE;
+    border-radius: 5px;
+}
+
+
+.scrollnew1::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.inputc {
+    outline: 1px solid white;
+}
+
+.inputc:focus {
+    outline: 1px solid rgb(65, 3, 3);
+}
+
+.cuborder {
+    border: 1px solid #58CBFE;
+}
+
+
+
